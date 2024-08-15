@@ -1,0 +1,555 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    border: 0%;
+    padding: 0px;
+}
+
+
+/* Menu */
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar ul {
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 30px;
+    padding-top: 30px; 
+    /* background-color: #bb9686; */
+    background-image: url(Imagens/Fundo\ Papel\ Antigo.png);
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #2e190e;
+    opacity: 100%;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar li{
+    margin: 0 25px;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+
+/* Entrada */
+.entrada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Imagens/Fundo\ Papel\ Antigo.png);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.entrada h1 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 250px;
+    margin-top: 80px;
+    background: -webkit-linear-gradient( #4d372b, #774a33);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* O que foi */
+.oqfoi{
+    h1{
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagens/beirapraia.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 159, 112);
+    width: 100%;
+    height: 700px;
+    font-weight: bold;
+    color: white;
+}
+
+.pimg{
+    box-shadow: white 0px 0px 25px;
+}
+
+.tx1 {
+    float: left;
+    width: 500px;
+    padding-left: 50px;
+}
+
+.autor strong {
+    float: left;
+    width: 500px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+/* Video */
+.video {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.video h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.video video {
+    margin: 0;
+    width: 800px;
+    box-shadow: 0 0 25px #db982c;
+}
+
+
+/* Contexto */
+.contexto {
+    width: 100%;
+    height: 1000px;
+    h1{
+        text-align: center;
+        font-size: 100px;
+        margin-top: 200px;
+        color: #5e3c2a;
+    }
+    background-image: url(Imagens/Fundo\ Contexto.png);
+    background-size: cover;
+    color: #5e3c2a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte1Contexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte2Contexto {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.textoContexto {
+    margin: 50px 0;
+    width: 500px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textoContexto>h4 {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.contexto .imgc1 {
+    box-shadow: #4d372b 0 0 25px;
+    margin-right: 40px;
+    width: 300px;
+}
+
+.contexto .imgc2 {
+    box-shadow: #4d372b 0 0 25px;
+    margin-left: 40px;
+    width: 320px;
+}
+
+
+/* Principais autores */
+.autores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    width: 100%;
+    height: fit-content;
+    padding: 20px 0;
+}
+
+.autores .arabesco {
+    width: 500px;
+    margin: 0px;
+}
+
+.autores .arabescoTopo {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.autores h1 {
+    font-size: 80px;
+    color: #5e3c2a;
+}
+
+.autores h2 {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 40px;
+    padding: 0px 70px;
+    font-size: 30px;
+    color: #5e3c2a;
+}
+
+.autores img {
+    width: 200px;
+}
+
+.autores p {
+    width: 1100px;
+    margin: 0 40px;
+    text-align: justify;
+}
+
+.autoresLiteraturaInformacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.autoresLiteraturaInformacao .arabesco {
+    margin: 0;
+    width: 500px;
+}
+
+.autoresLiteraturaFormacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.autoresLiteraturaFormacao .arabesco {
+    margin: 0;
+    width: 500px;
+}
+
+.autor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.autor img {
+    box-shadow: 0 0 25px #5e3c2a;
+}
+
+hr {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: solid 1px #db982c;
+
+}
+
+
+/* Principais Obras */
+.principaisObras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.principaisObras .arabesco {
+    width: 500px;
+    margin: 0px;
+}
+
+.principaisObras .arabescoTopo {
+    width: 500px;
+    margin-top: 70px;
+}
+
+.tituloPrincipaisObras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.principaisObras .titulo {
+    text-align: center;
+    font-size: 80px;
+    color: #5e3c2a;
+}
+
+.principaisObras h2 {
+    display: flex;
+    align-self: flex-start;
+    margin: 70px 0 0 70px;
+    font-size: 30px;
+    color: #5e3c2a;
+}
+
+[class ^= obr]{
+   background-color: rgb(255, 213, 158);
+   border-radius: 10px;
+   width: 900px;
+   height: 300px;
+   padding: 15px;
+   box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.248);  
+   margin: 50px 0px 50px 0px; /* top; right; bottom; left*/
+   Display: flex;
+   justify-content: center;
+   Flex-direction: row;
+   transition: 1s;
+}
+
+[class ^= obr]:hover {
+    transition: 1s;
+    width: 1000px;
+    height: 400px;
+    img {
+        width: 250px;
+        height: 300px;
+        transition: 1s;
+        margin-top: 15px;
+    }
+}
+
+[class ^= obr] > img{
+    width: 200px;
+    height: 250px;
+    padding: 30px;
+    transition: 1s;
+}
+
+[class ^= obr] > p{
+    padding: 40px;
+}
+
+.obr10 {
+    margin-bottom: 100px;
+}
+
+.textoObra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textoObra h1 {
+    margin: 20px 0;
+}
+
+.textoObra p {
+    width: 600px;
+    text-align: justify;
+}
+
+.parteObras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Registro */
+.registro .arabesco {
+    width: 500px;
+    margin: 0px;
+}
+
+.registro .arabescoTopo {
+    width: 500px;
+    margin-top: 60px;
+}
+
+.registro {
+    width: 100%;
+    background-color: #ffe7c0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #5e3c2a;
+}
+
+.registro h1 {
+    font-size: 80px;
+}
+
+.registro p {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cartaPeroVaz {
+    margin: 100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartaPeroVaz img {
+    box-shadow: 0 0 25px #4d372b;
+    width: 300px;
+}
+
+.textoCartaPeroVaz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 40px;
+    width: 900px;
+    text-align: justify;
+}
+
+.textoCartaPeroVaz h3 {
+    font-family: "Great Vibes";
+    font-size: 40px;
+    color: #5a3f15;
+}
+
+.linkCartaPeroVaz {
+    margin-top: 80px;
+    align-self: center;
+}
+
+.linkCartaPeroVaz a {
+    text-decoration: none;
+    color: #ff6f00;
+}
+
+.filme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filme h3 {
+    font-family: "Great Vibes";
+    font-size: 40px;
+    color: #5a3f15;
+    text-align: center;
+}
+
+.filme video {
+    width: 700px;
+    margin: 10px 0 0;
+}
+
+.filme p {
+    font-weight: 400;
+    margin: 10px 0 70px;
+}
+
+/* SOBRE NOS */
+.nossaEquipe {
+    background-image: url(Imagens/Fundo\ Papel\ Antigo.png);
+    background-size: cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(222, 193, 156);
+}
+
+.nossaEquipeTitulo {
+    margin: 100px 0 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.nossaEquipeTitulo h1 {
+    font-size: 60px;
+    color: #5e3c2a;
+}
+
+.nossaEquipeTitulo img {
+    width: 400px;
+}
+
+.equipeFoto {
+    box-shadow: 0 0 25px #5e3c2a;
+    width: 800px;
+    margin: 0 0 40px;
+}
+
+.nomesEquipe ul {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 0 0 30px;
+    list-style: square;
+}
+
+.nomesEquipe li {
+    margin: 5px 25px;
+}
+
+/* Bibliografia */
+.bibliografia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+}
+
+.bibliografia > h1{
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+.links {
+    margin: 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1400px;
+}
+
+.links > a{
+    margin: 10px 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.links > a:visited{
+    color: rgb(187, 78, 0);
+}
